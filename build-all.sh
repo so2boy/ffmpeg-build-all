@@ -333,6 +333,11 @@ cd $PACKAGES/ffmpeg-4.1.4 || exit
 	--disable-debug \
 	--disable-shared \
 	--disable-ffplay \
+	--disable-lzma \
+	--disable-sdl2 \
+	--disable-bzlib \
+	--disable-zlib \
+	--disable-iconv \
 	--disable-doc \
 	--enable-gpl \
 	--enable-version3 \
